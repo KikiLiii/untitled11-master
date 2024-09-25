@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        BMI humanBMI = new BMI(80, 1.52);
+        BMI humanBMI = new BMI(64, 1.68);
         System.out.printf("BMI: %.2f\n", humanBMI.calculateBMI());
         System.out.println("Result: " + humanBMI.getResult());
     }
